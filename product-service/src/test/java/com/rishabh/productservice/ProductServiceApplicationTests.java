@@ -32,8 +32,8 @@ class ProductServiceApplicationTests {
 	@Container
 	private static MySQLContainer<?> container = new MySQLContainer<>("mysql:8.0")
 			.withDatabaseName("projectDB")
-			.withUsername("root")
-			.withPassword("root");
+			.withUsername("hbstudent").withPassword("hbstudent");
+	
 	
 	@DynamicPropertySource
 	public static void overrideProps(DynamicPropertyRegistry dynamicPropertyRegistry) {

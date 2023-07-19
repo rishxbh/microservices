@@ -1,4 +1,4 @@
-package com.rishabh.productservice.model;
+package com.rishabh.productservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

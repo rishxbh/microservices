@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.rishabh.productservice.dto.ProductRequest;
 import com.rishabh.productservice.dto.ProductResponse;
-import com.rishabh.productservice.model.Product;
+import com.rishabh.productservice.entity.Product;
 import com.rishabh.productservice.repository.ProductRepository;
 
 @Service
